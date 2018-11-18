@@ -1,0 +1,370 @@
+/*Tabela*/
+table {
+  border-collapse: collapse;
+  width: 50em;
+  border: 1px solid #666;
+  margin-right: auto;
+  margin-left: auto;
+}
+thead {
+  background: #ccc repeat-x left center;
+  border-top: 1px solid #a5a5a5;
+  border-bottom: 1px solid #a5a5a5;
+}
+
+thead tr:hover {
+  background-color: transparent;
+  color: inherit;
+}
+th {
+  font-weight: normal;
+  text-align: left;
+}
+th, td {
+  padding: 0.1em 1em;
+}
+/*Fim*/
+
+
+/*Botões*/
+.botaovoltar{
+    color: #f1f1f1;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: rgb(23, 162, 184);
+    font-size: .9em;
+    border-radius: 3px;
+
+}
+
+.botaovoltar:hover{
+    background-color: rgb(19, 132, 150);
+}
+
+.botaoremover{
+    color: #f1f1f1;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #FF0000;
+    font-size: .9em;
+    border-radius: 3px;
+}
+
+.botaoremover:hover{
+    background-color: #8B0000;
+}
+
+.botao{
+    color: #f1f1f1;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: rgb(23, 162, 184);
+    font-size: .9em;
+    border-radius: 3px;
+   margin-left: 300px;
+}
+
+.botao:hover{
+    background-color: rgb(19, 132, 150);
+}
+/*Fim*/
+
+/*Busca*/
+.busca{
+	/*text-align: center;*/
+	margin-left: 25px;
+}
+/*Fim Busca*/
+
+/*Botão de inserir*/
+.inserir{
+	margin-left: 70px;
+}
+
+body {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: #4d4d4d;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+.botao {
+    color: #f1f1f1;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: rgb(23, 162, 184);
+    font-size: .9em;
+    border-radius: 3px;
+}
+
+/*NAVEGAÇÃO*/
+.logo{
+    width: 50px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(23, 162, 184);
+
+}
+
+nav > a {
+    text-decoration: none;
+    color: #f1f1f1;
+    font-weight: 700;
+    font-size: 28px;
+    font-family: Pacifico, serif;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+}
+
+nav ul li {
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+
+/*CABEÇALHO*/
+
+header {
+    background-image: url('../img/bolotela.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+header p {
+    margin-bottom: 2em;
+}
+
+/*Sobre Nós*/
+
+#sobrenos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px 20px;
+    background-color: rgb(23, 162, 184);
+    color: #f1f1f1;
+}
+
+#sobrenos p {
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+
+#sobrenos .botao {
+    background-color: #f1f1f1;
+    color: #4d4d4d;
+}
+/*Fim*/
+
+/*Produtos*/
+
+#produtos {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#produtos div {
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+/*Fim*/
+
+/*CARACTERISTICA*/
+
+#caracteristica {
+    display: flex;
+    flex-direction: column;
+    
+    padding-top: 20px;
+}
+
+#caracteristica h2 {
+    margin-bottom: 20px;
+}
+/*Fim*/
+
+/*Características*/
+.sale-w3ls {
+    background: url(../img/cake4.jpg)no-repeat 0px 0px;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 500px;
+}
+.sale-w3ls h2  {
+    font-weight: 100;
+    color: #000000;
+    text-align: center;
+}
+.sale-w3ls p {
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 30px;  
+    text-align: center;  
+}
+
+
+/*Fim Características*/
+
+/*CONTATO*/
+
+#contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+#contato a{
+    text-decoration: none;
+}
+
+
+/*FOOTER*/
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(23, 162, 184);
+    color: #f1f1f1;
+}
+
+.circulo{
+    margin-bottom: -5px;
+}
+/*MEDIA QUERIES*/
+
+@media screen and (min-width: 768px) {
+    /*
+    NAVEGAÇÃO
+    */
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    nav ul {
+        flex-direction: row;
+        width: 70%;
+    }
+    
+    /*
+    CABEÇALHO
+    */
+    
+    header {
+        height: 600px;
+        height: 60vh;
+        justify-content: center;
+    }
+    
+    /*
+    SOBRE
+    */
+    
+    #sobre {
+        height: 250px;
+        height: 30vh;
+        justify-content: center;
+        min-height: 250px;
+    }
+    
+    /*
+    SERVIÇOS
+    */
+    
+    #servicos {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    
+    #servicos h2 {
+        text-align: center;
+        width: 100%;
+    }
+    
+    #servicos div {
+        flex-grow: 1;
+        flex-basis: 150px;
+        padding: 0 10px;
+    }
+    
+    /*
+    PORTFOLIO
+    */
+    
+    #portfolio {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    #portfolio h2 {
+        width: 100%;
+        text-align: center;
+    }
+    
+    #portfolio img {
+        width: 33.3333333333%;
+    }
+    
+    /*
+    CONTATO
+    */
+    
+    #contato {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    
+    #contato h2,
+    #contato p {
+        width: 100%;
+    }
+    
+}

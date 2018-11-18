@@ -1,0 +1,11 @@
+.card{
+max-width: 500px;
+height: auto;
+float: left;
+overflow: hidden;
+}
+
+footer{
+	margin-top: 500px;
+	text-align: center;
+}

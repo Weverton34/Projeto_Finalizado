@@ -1,0 +1,55 @@
+/*Topo do Site*/
+.topo{
+	background-color: #F0F8FF;
+}
+
+.topo a{
+	text-decoration: none;
+	color: #778899;
+}
+
+.topo a:hover{
+	text-decoration: none;
+}
+
+.top{
+	padding-left: 1200px;
+	margin: 10px;
+}
+
+.carro{
+	margin-left: 25px;
+}
+
+/*Fim do Topo*/
+
+
+
+
+/*Busca*/
+.busca{
+	text-align: center;
+	margin-left: 700px;
+}
+/*Fim Busca*/
+
+/*Cliente*/
+h2{
+	margin-top: -90px;
+}
+
+/*Fim Cliente*/
+
+/*Botões*/
+.btn-group-vertical{
+	text-align: center;
+	margin-left: 700px;
+}
+/*Fim dos Botões*/
+/*Footer*/
+footer{
+	height: 50px; 
+	background-color: #F0F8FF; 
+	text-align: center;	
+}
+/*Fim Footer*/
